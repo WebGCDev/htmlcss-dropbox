@@ -1,4 +1,4 @@
-/* #region RESET*/
+/* #Inizio RESET*/
 
 * {
   margin: 0;
@@ -7,24 +7,99 @@
   font-family: 'Open Sans', sans-serif;
 }
 
-/* #endregion RESET*/
+img {
+  display: block;
+}
 
-/* #region TYPOGRAPHY*/
+/* Fine RESET*/
 
-/* #endregion TYPOGRAPHY*/
+/* #Inizio TYPOGRAPHY*/
 
-/* #region COMMON*/
+/* Root colori */
+:root {
+  --bordeaux: #61082b;
+  --light-gray: #f5f5f5;
+  --gray: #999999;
+  --light-blue: #1e73fc;
+  --blue: #0061ff;
+  --sky: #b4d0e7;
+}
 
-/* #endregion COMMON*/
+/* /Root colori */
 
-/* #region HEADER*/
+/* #Fine TYPOGRAPHY*/
 
-/* #endregion HEADER*/
+/* #Inizio COMMON*/
 
-/* #region MAIN*/
+nav .column-left,
+.column-right,
+.links ul,
+.help-links ul {
+  gap: 36px;
+}
 
-/* #endregion MAIN*/
+nav .column-right {
+  justify-content: flex-end;
+}
 
-/* #region FOOTER*/
+.header-button-start {
+  margin-left: 27px;
+}
 
-/* #endregion FOOTER*/
+nav .column-left,
+.column-right {
+  width: 50%;
+}
+
+header a {
+  color: black;
+  text-decoration: none;
+}
+
+header li {
+  display: flex;
+  align-items: center;
+  height: 82px;
+  list-style: none;
+}
+
+header nav {
+  padding: 0 20px;
+  height: 80px;
+  justify-content: space-between;
+  position: fixed;
+  border-bottom: 2px solid #d1d9e1;
+  left: 0;
+  right: 0;
+  z-index: 444444;
+  background-color: white;
+}
+
+.flex {
+  align-items: center;
+  display: flex;
+}
+
+.btn {
+  color: white;
+  padding: 10px 17px;
+  font-size: inherit;
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  background-color: var(--blue);
+}
+
+/* #Fine COMMON*/
+
+/* #Inizio HEADER*/
+
+/* #Fine HEADER*/
+
+/* #Inizio MAIN*/
+
+/* #Fine MAIN*/
+
+/* #Inizio FOOTER*/
+
+/* #Fine FOOTER*/
