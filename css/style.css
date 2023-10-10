@@ -158,5 +158,42 @@ header {
 /* #Fine MAIN*/
 
 /* #Inizio FOOTER*/
+/* 
+.side-footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  gap: 42px;
+}
+
+.menu-footer {
+  padding-top: 10px;
+  width: 20%;
+  color: white;
+  line-height: 24px;
+}
+
+.menu-footer ul li {
+  list-style: none;
+  font-size: 16px;
+}
+
+.menu {
+  display: flex;
+  margin: auto;
+  width: 75%;
+}
+
+.menu-footer ul li:first-child {
+  color: white;
+  font-weight: bold;
+  line-height: 40px;
+}
+
+.menu {
+  justify-content: space-between;
+  padding: 70px 0;
+} */
 
 /* #Fine FOOTER*/
