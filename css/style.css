@@ -155,6 +155,67 @@ header {
 
 /* #Inizio MAIN*/
 
+.bg-light-green {
+  background-color: var(--light-green);
+}
+.bg-bordeaux {
+  background-color: var(--bordeaux);
+}
+.bg-light-blue {
+  background-color: var(--light-blue);
+}
+.bg-topps-red {
+  background-color: var(--topps-red);
+}
+.bg-bycicle-red {
+  background-color: var(--bycicle-red);
+}
+.bg-sky {
+  background-color: var(--sky);
+}
+.bg-lonelyplanet-blue {
+  background-color: var(--lonelyplanet-blue);
+}
+.bg-clearchannel-yellow {
+  background-color: var(--clearchannel-yellow);
+}
+.svg-white {
+  filter: invert();
+}
+.col-logo {
+  width: 33.33%;
+  display: flex;
+  align-items: start;
+  vertical-align: middle;
+  flex-wrap: wrap;
+}
+.col-logo .logo {
+  width: 50%;
+  flex-direction: row;
+  align-items: center;
+  padding: 50px;
+  height: 250px;
+  display: flex;
+}
+.col-logo-center {
+  width: 33.33%;
+  padding: 50px;
+  margin-top: -125px;
+}
+.col-logo-center p {
+  margin: 15px 0px;
+}
+.col-logo-center img {
+  width: 250px;
+}
+hr .logo-center {
+  margin-top: 19px;
+  width: 50px;
+  height: 1px;
+  background-color: var(--border-gray);
+  border: none;
+}
+
 /* #Fine MAIN*/
 
 /* #Inizio FOOTER*/
